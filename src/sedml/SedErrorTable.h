@@ -2927,7 +2927,7 @@ static const sedmlErrorTableEntry sedmlErrorTable[] =
     "Attributes allowed on <repeatedTask>.",
     LIBSEDML_CAT_GENERAL_CONSISTENCY,
     LIBSEDML_SEV_ERROR,
-    "A <repeatedTask> object may have the optional attributes 'sedml:rangeId' "
+    "A <repeatedTask> object may have the optional attributes 'sedml:range' "
     "and 'sedml:resetModel', and may starting in level 1 version 4 contain "
     "the optional attribute 'sedml:concatenate'. No other attributes from the "
     "SED-ML namespaces are permitted on a <repeatedTask> object. ",
@@ -2949,11 +2949,11 @@ static const sedmlErrorTableEntry sedmlErrorTable[] =
   },
 
   // 23505
-  { SedmlRepeatedTaskRangeIdMustBeRange,
-    "The attribute 'rangeId' must point to Range object.",
+  { SedmlRepeatedTaskRangeMustBeRange,
+    "The attribute 'range' must point to Range object.",
     LIBSEDML_CAT_GENERAL_CONSISTENCY,
     LIBSEDML_SEV_ERROR,
-    "The value of the attribute 'sedml:rangeId' of a <repeatedTask> object must "
+    "The value of the attribute 'sedml:range' of a <repeatedTask> object must "
     "be the identifier of an existing <range> object defined in the enclosing "
     "<model> object.",
     { "L3V1 Sedml V1 Section"

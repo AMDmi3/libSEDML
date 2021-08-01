@@ -293,7 +293,7 @@ typedef enum
 , SedmlRepeatedTaskAllowedCoreElements      = 23502
 , SedmlRepeatedTaskAllowedAttributes      = 23503
 , SedmlRepeatedTaskAllowedElements      = 23504
-, SedmlRepeatedTaskRangeIdMustBeRange      = 23505
+, SedmlRepeatedTaskRangeMustBeRange      = 23505
 , SedmlRepeatedTaskResetModelMustBeBoolean      = 23506
 , SedmlRepeatedTaskLORangesAllowedCoreElements      = 23507
 , SedmlRepeatedTaskLOSetValuesAllowedCoreElements      = 23508
